@@ -7,6 +7,7 @@ class Home extends Component {
     render() {
         return(
             <>
+            <h1>POPPYSEED POTTERY</h1>
             </>
         )
     }}
