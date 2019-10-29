@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 5000;
 
 /** ------------ IMPORT ROUTES ------------ */
 const homeRouter = require('./routes/home.router.js');
-const workRouter = require('./routers/work.router.js');
+const workRouter = require('./routes/work.router.js');
 const eventsRouter = require('./routes/events.router.js');
 const aboutRouter = require('./routes/about.router.js');
 const contactRouter = require('./routes/contact.router.js');
