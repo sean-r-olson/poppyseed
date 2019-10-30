@@ -15,6 +15,8 @@ import Header from '../Header/Header';
 class App extends Component {
   render() {
     return (
+      <>
+      <HamNav />
       <Router>
           <Switch>
             {/* Visiting localhost:3000 will redirect to localhost:3000/home */}
@@ -50,6 +52,7 @@ class App extends Component {
             <Route render={() => <h1>404</h1>} />
           </Switch>
       </Router>
+      </>
     );
   }
 }
