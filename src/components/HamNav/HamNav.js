@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import { Link, Router } from 'react-router-dom';
+import { Link, Router, HashRouter } from 'react-router-dom';
 import '../App/App.css';
 
 class HamNav extends Component {
@@ -41,12 +41,15 @@ class HamNav extends Component {
                 <div className="hamNavCloseBtnContainer">
                     <p className="hamNavCloseBtn" onClick={(event) => this.closeNav()}>X</p>
                 </div>
+                <div>
                 <ul className="hamNavOpen">
-                    <li className="hamNavLinks">WORK</li>
-                    <li className="hamNavLinks">EVENTS</li>
-                    <li className="hamNavLinks">ABOUT</li>
-                    <li className="hamNavLinks">CONTACT</li>
-                </ul>
+                    
+                    <HashRouter><Link to='/work' style={{ textDecoration: 'none', color: '#464e51'}}><li onClick={(event) => this.closeNav()} className="hamNavLinks">WORK</li></Link></HashRouter>
+                    <HashRouter><Link to='/events' style={{ textDecoration: 'none', color: '#464e51' }}><li onClick={(event) => this.closeNav()} className="hamNavLinks">EVENTS</li></Link></HashRouter>
+                    <HashRouter><Link to='/about' style={{ textDecoration: 'none', color: '#464e51' }}><li onClick={(event) => this.closeNav()} className="hamNavLinks">ABOUT</li></Link></HashRouter>
+                    <HashRouter><Link to='/contact' style={{ textDecoration: 'none', color: '#464e51' }}><li onClick={(event) => this.closeNav()} className="hamNavLinks" >CONTACT</li></Link></HashRouter>
+                    
+                </ul></div>
                 </>
             )
         }
