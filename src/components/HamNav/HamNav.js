@@ -26,6 +26,7 @@ class HamNav extends Component {
         if (this.state.open === false) {
         return(
             <div className="hamNavContainer">
+                <img src="/images/poppyseed-logo1.png" alt="poppyseed-logo" className="logo"/>
                 <div className="hamNav" onClick={(event) => this.openNav()}>
                     <div className="hamNavIcon">
                     </div>
@@ -33,7 +34,7 @@ class HamNav extends Component {
                     </div>
                     <div className="hamNavIcon">
                     </div>
-                </div>
+                </div>  
             </div>
         )} else if (this.state.open === true) {
             return(

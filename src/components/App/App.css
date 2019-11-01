@@ -18,7 +18,7 @@
 }
 
 body { 
-  background-image: url('poppyseed-background.png');
+  background-image: url('poppyseed-background1.png');
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -31,12 +31,18 @@ body {
   .hamNavContainer {
     width: 100%;
     height: 75px;
+    display: inline-block;
     background-color: #f4AFAF;  
+  }
+  .logo{
+    width: 129px;
+    height: 75px;
+    color: #ff66c4;
+    margin-left: 35%
   }
   .hamNav{
     margin: 5px 20px;
     float: right;
-    display: inline-block;
   }
   .hamNavIcon{
     width: 40px;
@@ -45,7 +51,7 @@ body {
     margin-top: 15px;
   }
   body {
-    background-image: url('poppyseed-background-mobile.png')
+    background-image: url('poppyseed-background2.png')
   }
   .hamNavCloseBtnContainer {
     height: 100px;
@@ -79,5 +85,29 @@ body {
     border: none;
     cursor: pointer;
     outline: 0;
+  }
+  .homeTitle1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+  } 
+  .homeTitleTop {
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+  }
+  .homeTitleBottom {
+    letter-spacing: 23px;
+    margin-top: 10px;
+    margin-left:12px;
+  }
+  .homeTitle2 { 
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin-top: 40px;
+  }
+  .homePicture {
+    width: 100%;
   }
 }

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { HashRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 import {connect} from 'react-redux';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import Home from '../Home/Home';
 import Work from '../Work/Work';
