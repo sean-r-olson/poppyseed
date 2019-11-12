@@ -169,4 +169,12 @@ body {
     font-size: 23px;
     margin-top: 16px;
   }
+    /* ---------- EVENTS ------- */
+  .eventsGrid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 3% 94% 3%;
+    font-size: 1.2rem
+  }
+
 }
