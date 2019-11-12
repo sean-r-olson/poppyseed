@@ -41,18 +41,31 @@ class HamNav extends Component {
         )} else if (this.state.open === true) {
             return(
                 <>
+                <div className="hamNavContainer">
+                <div></div>
+                <HashRouter><Link to='/home'><img src="/images/poppyseed-logo1.png" alt="poppyseed-logo" className="logo"/></Link></HashRouter>
+                <div></div>
+                <div className="hamNav" onClick={(event) => this.openNav()}>
+                    <div className="hamNavIcon">
+                    </div>
+                    <div className="hamNavIcon">
+                    </div>
+                    <div className="hamNavIcon">
+                    </div>
+                </div>  
+            </div>
+                <div className="hamNavOpenContainer">
                 <div className="hamNavCloseBtnContainer">
                     <p className="hamNavCloseBtn" onClick={(event) => this.closeNav()}>X</p>
                 </div>
-                <div>
-                <ul className="hamNavOpen">
+                <div>   
+                    <HashRouter><Link to='/work' style={{ textDecoration: 'none', color: '#222'}}><p style={{opacity: '1'}} onClick={(event) => this.closeNav()} className="hamNavLinks">WORK</p></Link></HashRouter>
+                    <HashRouter><Link to='/events' style={{ textDecoration: 'none', color: '#222' }}><p style={{opacity: '1'}} onClick={(event) => this.closeNav()} className="hamNavLinks">EVENTS</p></Link></HashRouter>
+                    <HashRouter><Link to='/about' style={{ textDecoration: 'none', color: '#222' }}><p style={{opacity: '1'}} onClick={(event) => this.closeNav()} className="hamNavLinks">ABOUT</p></Link></HashRouter>
+                    <HashRouter><Link to='/contact' style={{ textDecoration: 'none', color: '#222' }}><p style={{opacity: '1'}} onClick={(event) => this.closeNav()} className="hamNavLinks" >CONTACT</p></Link></HashRouter>
                     
-                    <HashRouter><Link to='/work' style={{ textDecoration: 'none', color: '#222'}}><li onClick={(event) => this.closeNav()} className="hamNavLinks">WORK</li></Link></HashRouter>
-                    <HashRouter><Link to='/events' style={{ textDecoration: 'none', color: '#222' }}><li onClick={(event) => this.closeNav()} className="hamNavLinks">EVENTS</li></Link></HashRouter>
-                    <HashRouter><Link to='/about' style={{ textDecoration: 'none', color: '#222' }}><li onClick={(event) => this.closeNav()} className="hamNavLinks">ABOUT</li></Link></HashRouter>
-                    <HashRouter><Link to='/contact' style={{ textDecoration: 'none', color: '#222' }}><li onClick={(event) => this.closeNav()} className="hamNavLinks" >CONTACT</li></Link></HashRouter>
-                    
-                </ul></div>
+                </div>
+                </div>
                 </>
             )
         }

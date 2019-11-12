@@ -49,6 +49,7 @@ body {
     width: 40px;
     margin: 5px 20px
   }
+  
   .hamNavIcon{
     width: 40px;
     height: 1px;
@@ -57,8 +58,8 @@ body {
   }
   .hamNavCloseBtnContainer {
     height: 100px;
-    background-color: white;
-    opacity: 0.5;
+    background-color: #f4AFAF;
+    opacity: 0.9;
   }
   .hamNavCloseBtn {
     float: right;
@@ -66,35 +67,31 @@ body {
     margin: 20px;
     font-size: 40px;
   }
-  .hamNavOpen {
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-left: 0px;
-    list-style: none;
+  .hamNavOpenContainer {
+    display: flexbox;
+    text-align: center;
+    font-size: 30px;
+    height: 100%;
     width: 100%;
-    height: 720px;
-    padding: none;
-    background-color: white;
-    opacity: 0.5;
+    padding: 0px;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    background-color: #f4AFAF;
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
   }
   .hamNavLinks {
-    margin-right: 0px;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-    text-decoration-line: none;
-    opacity: 1;
-    font-size: 30px;
-    border: none;
-    cursor: pointer;
-    outline: 0;
+    padding-top: 20px;
   }
   /* --------- HOME -------- */
   grid-container {
     display: grid;
     grid-template-columns: 5% 90% 5%;
     text-align: center;
-    margin: 20px 0px;
+    margin: 2rem 0px;
     color: #222;
     font-size: 20px;
   }
@@ -119,12 +116,12 @@ body {
     display: grid;
     grid-template-columns: 5% 90% 5%;
     text-align: center;
+    margin: 2rem 0px;
   }
   .homeTitle2 { 
     text-align: center;
     font-size: 20px;
     letter-spacing: 8px;
-    margin-top: 40px;
   }
   .homePicture {
     width: 100%;
@@ -155,5 +152,21 @@ body {
     text-align: center;
     color: #222;
     letter-spacing: 4px;
+  }
+  /* ---------- ABOUT ------- */
+  .aboutPic1 {
+    width: 75%;
+    height: 75%; 
+  }
+  .aboutGrid {
+    display: grid;
+    text-align: center;
+    color: #222;
+    font-size: 15px;
+    padding: 0.5rem;
+  }
+  .aboutDescription{
+    font-size: 23px;
+    margin-top: 16px;
   }
 }
