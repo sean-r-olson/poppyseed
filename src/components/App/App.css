@@ -28,30 +28,32 @@ body {
   .header {
     font-size: 10px;
   }
+  body {
+    background-image: url('poppyseed-background2.png');
+    color: #222
+  }
+  /* ------- HAMNAV -------- */
   .hamNavContainer {
     width: 100%;
     height: 75px;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 25% 50% 5% 20%;
     background-color: #f4AFAF;  
+    text-align: center;
   }
   .logo{
-    width: 129px;
+    width: 129.4px;
     height: 75px;
-    color: #ff66c4;
-    margin-left: 35%
   }
   .hamNav{
-    margin: 5px 20px;
-    float: right;
+    width: 40px;
+    margin: 5px 20px
   }
   .hamNavIcon{
     width: 40px;
     height: 1px;
     background-color: black;
     margin-top: 15px;
-  }
-  body {
-    background-image: url('poppyseed-background2.png')
   }
   .hamNavCloseBtnContainer {
     height: 100px;
@@ -81,33 +83,77 @@ body {
     justify-content: center;
     padding: 20px 0;
     text-decoration-line: none;
-    font-size: 40px;
+    opacity: 1;
+    font-size: 30px;
     border: none;
     cursor: pointer;
     outline: 0;
   }
-  .homeTitle1 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  /* --------- HOME -------- */
+  grid-container {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
     text-align: center;
-    font-size: 40px;
+    margin: 20px 0px;
+    color: #222;
+    font-size: 20px;
+  }
+  grid-item {
+    max-width: 100%;
+    display: flexbox;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    text-indent: 0.8rem;
   } 
   .homeTitleTop {
-    letter-spacing: 10px;
-    margin-bottom: 10px;
+    letter-spacing: 1rem;
+    text-align: center;
   }
   .homeTitleBottom {
-    letter-spacing: 23px;
-    margin-top: 10px;
-    margin-left:12px;
+    letter-spacing: 1.6rem;
+    text-align: center;
+    text-indent: 1.3rem;
+  }
+  .homeGrid2 {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    text-align: center;
   }
   .homeTitle2 { 
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     letter-spacing: 8px;
     margin-top: 40px;
   }
   .homePicture {
     width: 100%;
+  }
+  .carousel {
+    border-width: 3px 0px;
+    border-style: solid;
+    border-radius: 20px;
+    border-image: 
+      linear-gradient(
+        to right,
+      #f4AFAF,   
+        #B7ABCB
+      ) 1 0 100%;
+    
+  }
+  /* ---------- WORK ------- */
+  .workImagesContainer {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    text-align: center;
+  }
+  .workImages {
+    width: 75%;
+    height: 75%;
+  }
+  .workDescriptions {
+    text-align: center;
+    color: #222;
+    letter-spacing: 4px;
   }
 }

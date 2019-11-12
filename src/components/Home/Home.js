@@ -8,11 +8,15 @@ class Home extends Component {
     render() {
         return(
             <>
-            <div className="homeTitle1">
+            <grid-container>
+                <div></div>
+            <grid-item>
                 <p className="homeTitleTop">HAND MADE <br/></p>
                 <p className="homeTitleBottom"> POTTERY</p>
-            </div>
-            <Carousel>
+            </grid-item>
+                <div></div>
+            </grid-container>
+            <Carousel className="carousel">
             <Carousel.Item>
                 <img
                 className="homePicture"
@@ -27,7 +31,7 @@ class Home extends Component {
             <Carousel.Item>
                 <img
                 className="homePicture"
-                src="/images/poppyseed-homepic2.png"
+                src="/images/poppyseed-homepic4.png"
                 alt="Second slide"
                 />
 
@@ -39,7 +43,7 @@ class Home extends Component {
             <Carousel.Item>
                 <img
                 className="homePicture"
-                src="/images/poppyseed-homepic3.png"
+                src="/images/poppyseed-homepic5.png"
                 alt="Third slide"
                 />
 
@@ -49,8 +53,13 @@ class Home extends Component {
                 </Carousel.Caption> */}
             </Carousel.Item>
             </Carousel>
+            
+            <div className="homeGrid2">
+                <div></div>
             <div className="homeTitle2">
                 <p>MINNEAPOLIS | MN</p>
+            </div>
+                <div></div>
             </div>
             </>
         )
