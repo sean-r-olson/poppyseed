@@ -12,7 +12,7 @@ render() {
                 <p>Poppyseed Pottery is Lara Eve. </p>
             </div>
             <div className="aboutGridItem">
-                <img src="/images/poppyseed-aboutpic1.png" alt="aboutPic1" className="aboutPic1"/>
+                <img src="/images/poppyseed-aboutpic2.png" alt="aboutPic1" className="aboutPic1"/>
             </div>
             <div className="aboutGridItem">
                 <p> A lifelong lure to design and crafts led Lara to the wonderful 

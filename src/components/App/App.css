@@ -57,14 +57,14 @@ body {
     margin-top: 15px;
   }
   .hamNavCloseBtnContainer {
-    height: 100px;
+    height: 75px;
     background-color: #f4AFAF;
     opacity: 0.9;
   }
   .hamNavCloseBtn {
     float: right;
     font-weight: 700;
-    margin: 20px;
+    margin: 7px 20px;
     font-size: 40px;
   }
   .hamNavOpenContainer {
@@ -78,10 +78,13 @@ body {
     z-index: 200;
     top: 0;
     left: 0;
-    background-color: #f4AFAF;
+    /* background-color: #f4AFAF; */
+    background-image: url('hamnav2.png');
+    background-size: cover;
     opacity: 0.9;
     overflow-x: hidden;
     transition: 0.5s;
+    text-shadow: 3px 3px white;
   }
   .hamNavLinks {
     padding-top: 20px;
@@ -169,12 +172,38 @@ body {
     font-size: 23px;
     margin-top: 16px;
   }
+  .aboutGridItem {
+    margin-top: 20px;
+  }
     /* ---------- EVENTS ------- */
   .eventsGrid {
     display: grid;
     text-align: center;
     grid-template-columns: 3% 94% 3%;
     font-size: 1.2rem
+  }
+    /* ---------- CONTACT ------- */
+  .socialMediaContainer {
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+  .instagramLogo {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+  }
+  .facebookLogo {
+    width: 45px;
+    height: 45px;
+    margin: 20px auto;
+  }
+  .etsyLogo { 
+    width: 105px;
+    height: 50px;
+    margin: 20px;
+
   }
 
 }
