@@ -79,15 +79,14 @@ body {
     top: 0;
     left: 0;
     /* background-color: #f4AFAF; */
-    background-image: url('hamnav2.png');
+    background-image: url('hamnav-background2.png');
     background-size: cover;
     opacity: 0.9;
     overflow-x: hidden;
     transition: 0.5s;
-    text-shadow: 3px 3px white;
   }
   .hamNavLinks {
-    padding-top: 20px;
+    padding-top: 30px;
   }
   /* --------- HOME -------- */
   grid-container {
