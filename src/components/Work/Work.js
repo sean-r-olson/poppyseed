@@ -8,23 +8,52 @@ class Work extends Component {
         return(
             <>
             <div className="workImagesContainer">
+                {/* ITEM 1 */}
+                <div></div>
+                <a style={{textDecoration: 'none'}} href="https://www.etsy.com/listing/737930224/blue-pink-bud-vases?ref=shop_home_active_1">
                 <div>
+                <img className="workImages" src="/images/item1.png"/>
+                <p className="workDescriptions">BLUE & PINK BUD VASES <br/> $25 </p>
                 </div>
-
+                </a>
+                <div></div>
+                {/* ITEM 2 */}
+                <div></div>
+                <a style={{textDecoration: 'none'}} href="https://www.etsy.com/listing/742310207/yellow-splatter-miso-soup-bowls?ref=shop_home_active_4">
                 <div>
-                <img className="workImages" src="/images/poppyseed-item1.png"/>
-                <p className="workDescriptions">SPLATTER PLANTER <br/> $20 </p>
+                <img className="workImages" src="/images/item2.png"/>
+                <p className="workDescriptions">YELLOW SPLATTER MISO SOUP BOWLS <br/> $15 </p>
                 </div>
-
+                </a>
+                <div></div>
+                {/* ITEM 3 */}
+                <div></div>
+                <a style={{textDecoration: 'none'}} href="https://www.etsy.com/listing/742308713/black-beige-speckled-mug?ref=shop_home_active_2">
                 <div>
+                <img className="workImages" src="/images/item4.png"/>
+                <p className="workDescriptions">BLACK & BEIGE SPECKLED MUG <br/> $25 </p>
                 </div>
+                </a>
+                <div></div>
+                {/* ITEM 4 */}
+                <div></div>
+                <a style={{textDecoration: 'none'}} href="https://www.etsy.com/listing/728448796/splatter-snack-bowl?ref=shop_home_active_3">
                 <div>
+                <img className="workImages" src="/images/item3.png"/>
+                <p className="workDescriptions">SPLATTER SNACK BOWL <br/> $20 </p>
                 </div>
+                </a>
+                <div></div>
+                {/* ITEM 5 */}
+                <div></div>
+                <a style={{textDecoration: 'none'}} href="https://www.etsy.com/listing/728449344/lilac-miso-soup-bowls?ref=shop_home_active_5">
                 <div>
-                <img className="workImages" src="/images/poppyseed-item2.png"/>
-                <p className="workDescriptions">POLKA DOT BUD VASE <br/> $15 </p>
+                <img className="workImages" src="/images/item5.png"/>
+                <p className="workDescriptions">LILAC MISO SOUP BOWLS <br/> $15 </p>
                 </div>
-            </div>
+                </a>
+                <div></div>
+                </div>
             </>
         )
     }}

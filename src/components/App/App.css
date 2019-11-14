@@ -58,7 +58,7 @@ body {
   }
   .hamNavCloseBtnContainer {
     height: 75px;
-    background-color: #f4AFAF;
+    /* background-color: #f4AFAF; */
     opacity: 0.9;
   }
   .hamNavCloseBtn {
@@ -156,6 +156,15 @@ body {
     color: #222;
     letter-spacing: 4px;
   }
+    /* ---------- EVENTS ------- */
+  .event1 {
+  }
+  .eventsGrid {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 3% 94% 3%;
+    font-size: 1.2rem
+  }
   /* ---------- ABOUT ------- */
   .aboutPic1 {
     width: 75%;
@@ -169,18 +178,12 @@ body {
     padding: 0.5rem;
   }
   .aboutDescription{
-    font-size: 23px;
+    font-size: 1.5rem ;
     margin-top: 16px;
+    font-family: 'Abril Fatface', cursive;
   }
   .aboutGridItem {
     margin-top: 20px;
-  }
-    /* ---------- EVENTS ------- */
-  .eventsGrid {
-    display: grid;
-    text-align: center;
-    grid-template-columns: 3% 94% 3%;
-    font-size: 1.2rem
   }
     /* ---------- CONTACT ------- */
   .socialMediaContainer {

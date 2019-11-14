@@ -8,7 +8,7 @@ render() {
     return(
         <>
         <div className="aboutGrid">
-            <div className ="aboutDescription">
+            <div className="aboutDescription">
                 <p>Poppyseed Pottery is Lara Eve. </p>
             </div>
             <div className="aboutGridItem">
