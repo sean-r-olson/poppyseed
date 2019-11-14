@@ -18,9 +18,9 @@ class Home extends Component {
             </grid-container>
             <Carousel className="carousel">
             <Carousel.Item>
-                <img
+                <img style={{backgroundImage: 'cover'}}
                 className="homePicture"
-                src="/images/poppyseed-homepic1.png"
+                src="/images/carouselpicture1.png"
                 alt="First slide"
                 />
                 {/* <Carousel.Caption>
@@ -31,7 +31,7 @@ class Home extends Component {
             <Carousel.Item>
                 <img
                 className="homePicture"
-                src="/images/poppyseed-homepic4.png"
+                src="/images/carouselpicture2.png"
                 alt="Second slide"
                 />
 
@@ -43,7 +43,7 @@ class Home extends Component {
             <Carousel.Item>
                 <img
                 className="homePicture"
-                src="/images/poppyseed-homepic5.png"
+                src="/images/carouselpicture3.png"
                 alt="Third slide"
                 />
 
