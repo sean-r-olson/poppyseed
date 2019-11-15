@@ -9,7 +9,7 @@ render() {
         <>
         <div className="aboutGrid">
             <div className="aboutDescription">
-                <p>Poppyseed Pottery is Lara Eve. </p>
+                <p style={{color: '#222'}}>Poppyseed Pottery is Lara Eve. </p>
             </div>
             <div className="aboutGridItem">
                 <img src="/images/poppyseed-aboutpic2.png" alt="aboutPic1" className="aboutPic1"/>

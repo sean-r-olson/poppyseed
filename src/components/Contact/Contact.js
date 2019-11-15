@@ -10,7 +10,7 @@ class Contact extends Component {
             <div className="eventsGrid">
             <div></div>
             <div>
-                <h2 style={{textIndent: '1.5rem', letterSpacing: '2rem', marginTop: '2rem', marginBottom: '1rem', textShadow: '2px 2px white'}}>CONTACT</h2>
+                <h2 style={{color: '#222', textIndent: '1.5rem', letterSpacing: '2rem', marginTop: '2rem', marginBottom: '1rem', textShadow: '2px 2px white'}}>CONTACT</h2>
                 <p style={{backgroundImage: 'url("/images/about-background.png")', color: 'white', borderRadius: '20px', padding: '10px', boxShadow: '15px 15px #68A691', letterSpacing: '0.3rem', margin: '0px', marginTop: '2rem', width: '100%'}}> LARA EVE <br/>
                  email: poppyseedpottery@gmail.com</p>
                 <div className="socialMediaContainer">
