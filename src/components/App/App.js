@@ -11,6 +11,7 @@ import Events from '../Events/Events';
 import About from '../About/About';
 import Contact from '../Contact/Contact';
 import HamNav from '../HamNav/HamNav';
+import DesktopNav from '../DesktopNav/DesktopNav';  
 import NavBar from '../Navbar/Navbar';
 import Header from '../Header/Header';
 
@@ -18,7 +19,8 @@ class App extends Component {
   render() {
     return (
       <>
-      <HamNav />
+      <HamNav/>
+      <DesktopNav/>
       <Router>
           <Switch>
             {/* Visiting localhost:3000 will redirect to localhost:3000/home */}

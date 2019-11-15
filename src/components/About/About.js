@@ -14,7 +14,7 @@ render() {
             <div className="aboutGridItem">
                 <img src="/images/poppyseed-aboutpic2.png" alt="aboutPic1" className="aboutPic1"/>
             </div>
-            <div className="aboutGridItem">
+            <div className="aboutGridItem2">
                 <p> A lifelong lure to design and crafts led Lara to the wonderful 
                     Minneapolis Parks and Rec pottery program, where she fell in the love with the art. Pottery is Lara's 
                     escape and way of exercising expression.

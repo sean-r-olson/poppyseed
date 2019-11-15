@@ -26,9 +26,15 @@ class HamNav extends Component {
         if (this.state.open === false) {
         return(
             <div className="hamNavContainer">
-                <div></div>
+                <div className="hamNavGridItem1">
+                    <p style={{fontSize: '13px', fontWeight: '300', float: 'right', opacity: '0.5'}} className="desktopDescription">MPLS</p>
+                </div>
+                <div>
                 <HashRouter><Link to='/home'><img src="/images/poppyseed-logo1.png" alt="poppyseed-logo" className="logo"/></Link></HashRouter>
-                <div></div>
+                </div>
+                <div className="hamNavGridItem2">
+                    <p style={{fontSize: '13px', fontWeight: '300', float: 'left', paddingLeft: '20px', letterSpacing: '1.5rem', opacity: '0.5'}} className="desktopDescription2">MN</p>
+                </div>
                 <div className="hamNav" onClick={(event) => this.openNav()}>
                     <div className="hamNavIcon">
                     </div>

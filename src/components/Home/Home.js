@@ -23,9 +23,9 @@ class Home extends Component {
                 src="/images/carouselpicture1.png"
                 alt="First slide"
                 />
-                {/* <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                {/* color: '#E9AFA3'  */}
+                {/* <Carousel.Caption style={{color: '#8B687F',fontFamily: 'Abril Fatface, cursive', margin: '5% 0%', letterSpacing: '1.5rem', padding: '10px'}}>
+                <h3 sytle={{marginBottom: '2rem'}}>HANDMADE</h3>
                 </Carousel.Caption> */}
             </Carousel.Item>
             <Carousel.Item>
@@ -35,9 +35,8 @@ class Home extends Component {
                 alt="Second slide"
                 />
 
-                {/* <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                {/* <Carousel.Caption style={{color: '#8B687F', fontFamily: 'Abril Fatface, cursive', margin: '5% 0%', letterSpacing: '1.5rem', padding: '10px'}}>
+                <h3 sytle={{marginBottom: '2rem'}}>LOCAL</h3>
                 </Carousel.Caption> */}
             </Carousel.Item>
             <Carousel.Item>
@@ -46,14 +45,11 @@ class Home extends Component {
                 src="/images/carouselpicture3.png"
                 alt="Third slide"
                 />
-
-                {/* <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            {/* <Carousel.Caption style={{color: '#8B687F',fontFamily: 'Abril Fatface, cursive', margin: '5% 0%', letterSpacing: '1.5rem', padding: '10px'}}>
+                <h3 sytle={{marginBottom: '2rem'}}>MINNEAPOLIS | MN</h3>
                 </Carousel.Caption> */}
             </Carousel.Item>
             </Carousel>
-            
             <div className="homeGrid2">
                 <div></div>
             <div className="homeTitle2">
