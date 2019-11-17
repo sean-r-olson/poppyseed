@@ -338,7 +338,7 @@
       ) 1 0 100%;
   } */
   /* ---------- WORK ------- */
-  .workImagesContainer {
+  .workImagesGrid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     text-align: center;
@@ -347,10 +347,61 @@
   .emptyDiv {
     display: none;
   }
-  .workImages {
-    width: 80%;
-    height: 80%;
+  .workImages1 {
+    width: 75%;
+    height: 75%;
   }
+  .workImages2 {
+    width: 75%;
+    height: 75%;
+  }
+  .workImages3 {
+    width: 75%;
+    height: 75%;
+  }
+  .workImages4 {
+    width: 75%;
+    height: 75%;
+  }
+  .workImages5{
+    width: 75%;
+    height: 75%; 
+  }
+  .workImages1:hover{    
+    background-image: url('workImages1-hover.png');
+    background-size: cover
+  }
+  .workImages2:hover{    
+    background-image: url('workImages2-hover.png');
+    background-size: cover
+  }
+  .workImages3:hover{    
+    background-image: url('workImages3-hover.png');
+    background-size: cover
+  }
+  .workImages4:hover{    
+    background-image: url('workImages4-hover.png');
+    background-size: cover
+  }
+  .workImages5:hover{    
+    background-image: url('workImages5-hover.png');
+    background-size: cover
+  }
+  .workImagesContainer{
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+
+  }
+  .workImagesContainer:hover,
+  .workImagesContainer:focus,
+  .workImagesContainer:active {
+    transform: scale(1.1);
+}
   .workDescriptions {
     text-align: center;
     color: #222;
