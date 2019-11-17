@@ -20,7 +20,7 @@ render() {
                     escape and way of exercising expression.
                     <br/>
                     <br/>
-                    Lara grew up in Austin, TX. She, her husband, Sean, and their two beautiful cats - Jack and Louis, now call Minneapolis home. 
+                    Lara grew up in Austin, TX. She, her husband, and their two cats now call Minneapolis home. 
                     Find Lara and her work at Minneapolis Craft Market's next event, or on etsy, instagram, and facebook.  
                 </p>
             </div>
