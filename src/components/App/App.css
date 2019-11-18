@@ -548,6 +548,7 @@
       -moz-osx-font-smoothing: grayscale;
       transition-duration: 0.3s;
       transition-property: transform;
+      z-index: 100;
     }
     .etsyLogo:hover,
     .etsyLogo:active,
