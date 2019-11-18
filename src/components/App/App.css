@@ -29,8 +29,8 @@
 
 @media only screen and (max-width: 450px){
   body { 
-    background-image: url('poppyseed-background1.png');
-    background-size: 100%;
+    background-image: url('background-mobile.png');
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Quicksand', sans-serif;
@@ -158,13 +158,39 @@
         #B7ABCB
       ) 1 0 100%;
   }
+  .carouselItem1{
+    background: url('hover.png')
+  }
   /* ---------- WORK ------- */
-  .workImagesContainer {
-    display: grid;
+  .workImagesGrid{
+      display: grid;
     grid-template-columns: 10% 80% 10%;
     text-align: center;
   }
-  .workImages {
+  .workImagesContainer {
+    /* display: grid;
+    grid-template-columns: 10% 80% 10%;
+    text-align: center; */
+  }
+  .emptyDiv{
+  }
+  .workImages1 {
+    width: 75%;
+    height: 75%;
+  }
+  .workImages2 {
+    width: 75%;
+    height: 75%;
+  }
+  .workImages3 {
+    width: 75%;
+    height: 75%;
+  }
+  .workImages4 {
+    width: 75%;
+    height: 75%;
+  }
+  .workImages5 {
     width: 75%;
     height: 75%;
   }
@@ -311,7 +337,7 @@
   }
   .homePicture {
     width: 100%;
-
+    margin-top: -100px;
   }
   .homeTitleTop {
     /* letter-spacing: 1rem;
@@ -333,6 +359,9 @@
   .carousel {    /* border-image: 
       linear-gradient(150deg, #f4AFAF, #FCCF00) 1; */
       z-index: 300;
+      width: 100%;
+      height: 90vh;
+      object-fit: cover;
   }
   /* .carousel{
     border-width: 0px;
@@ -429,6 +458,17 @@
       color: white;
       border-radius: 20px;
       box-shadow: #B7ABCB 15px 15px;
+      vertical-align: middle;
+      transform: translateZ(0);
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      transition-duration: 0.3s;
+      transition-property: transform;
+    }
+    .event1:hover,
+    .event1:focus,
+    .event1:active{
+      transform: scale(1.1);
     }
     /* ---------- ABOUT ------- */
   .aboutPic1 {
@@ -470,15 +510,48 @@
       width: 50px;
       height: 50px;
       margin: 20px;
+      vertical-align: middle;
+      transform: translateZ(0);
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      transition-duration: 0.3s;
+      transition-property: transform;
+    }
+    .instagramLogo:hover, 
+    .instagramLogo:active,
+    .instagramLogo:focus{
+      transform: scale(1.3);
     }
     .facebookLogo {
       width: 45px;
       height: 45px;
       margin: 20px;
+      vertical-align: middle;
+      transform: translateZ(0);
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      transition-duration: 0.3s;
+      transition-property: transform;
+    }
+    .facebookLogo:hover,
+    .facebookLogo:active,
+    .facebookLogo:focus{
+      transform: scale(1.3);
     }
     .etsyLogo { 
       width: 105px;
       height: 50px;
       margin: 20px;
+      vertical-align: middle;
+      transform: translateZ(0);
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      transition-duration: 0.3s;
+      transition-property: transform;
+    }
+    .etsyLogo:hover,
+    .etsyLogo:active,
+    .etsyLogo:focus{
+      transform: scale(1.3);
     }
 }

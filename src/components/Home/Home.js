@@ -17,10 +17,10 @@ class Home extends Component {
                 <div></div>
             </grid-container>
             <Carousel className="carousel">
-            <Carousel.Item>
+            <Carousel.Item className="carouselItem1">
                 <img style={{backgroundImage: 'cover'}}
                 className="homePicture"
-                src="/images/carouselpicture1.png"
+                src="/images/carousel-image3.png"
                 alt="First slide"
                 />
                 {/* color: '#E9AFA3'  */}
@@ -29,9 +29,9 @@ class Home extends Component {
                 </Carousel.Caption> */}
             </Carousel.Item>
             <Carousel.Item>
-                <img
+                <img style={{backgroundImage: 'cover'}}
                 className="homePicture"
-                src="/images/carouselpicture2.png"
+                src="/images/carousel-image1.png"
                 alt="Second slide"
                 />
 
@@ -40,9 +40,9 @@ class Home extends Component {
                 </Carousel.Caption> */}
             </Carousel.Item>
             <Carousel.Item>
-                <img
+                <img style={{backgroundImage: 'cover'}}
                 className="homePicture"
-                src="/images/carouselpicture3.png"
+                src="/images/carousel-image2.png"
                 alt="Third slide"
                 />
             {/* <Carousel.Caption style={{color: '#8B687F',fontFamily: 'Abril Fatface, cursive', margin: '5% 0%', letterSpacing: '1.5rem', padding: '10px'}}>
