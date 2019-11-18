@@ -249,7 +249,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 500;
   }
   .desktopNavContainer{
     display: grid;
@@ -262,7 +262,7 @@
     text-align: center;
     position: fixed;    
     top: 1;
-    z-index: 2;
+    z-index: 400;
   }
   .desktopNavWork{
     padding-top: 16px;
@@ -447,6 +447,9 @@
     margin-top: 60px;
     font-family: 'Abril Fatface', cursive;
   } 
+  .aboutGridItem{
+    margin-top: 20px;
+  }
   .aboutGridItem2 {
     background-image: url('about-background.png');
     margin: 20px 150px;
