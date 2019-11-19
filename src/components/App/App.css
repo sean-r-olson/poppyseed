@@ -117,14 +117,14 @@
     align-content: center;
     justify-content: center;
     margin: auto;
-    text-indent: 0.8rem;
   } 
   .homeTitleTop {
+    text-indent: 1rem;
     letter-spacing: 1rem;
     text-align: center;
   }
   .homeTitleBottom {
-    letter-spacing: 1.6rem;
+    letter-spacing: 1.5rem;
     text-align: center;
     text-indent: 1.3rem;
   }
