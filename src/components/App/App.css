@@ -112,20 +112,21 @@
     font-size: 20px;
   }
   grid-item {
-    max-width: 100%;
     display: flexbox;
     align-content: center;
     justify-content: center;
-    margin: auto;
+    text-align: center;
     text-indent: 1rem;
   } 
   .homeTitleTop {
+    width: 95%;
+    margin: auto;
     letter-spacing: 1rem;
-    text-align: center;
   }
   .homeTitleBottom {
-    letter-spacing: 1.3rem;
-    text-align: center;
+    width: 95%;
+    margin: auto;
+    letter-spacing: 1.5rem;
   }
   .homeGrid2 {
     display: grid;
