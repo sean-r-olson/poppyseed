@@ -7,7 +7,7 @@ class Events extends Component {
     render() {
         return(
             <>
-            <h2 style={{textAlign: 'center', color: '#222', textDecoration: 'none', letterSpacing: '2rem', marginTop: '60px', marginBottom: '1rem', textShadow: '2px 2px white'}}>EVENTS</h2>  
+            <h2 style={{textAlign: 'center', color: '#222', textDecoration: 'none', letterSpacing: '1rem', marginTop: '60px', marginBottom: '1rem', textShadow: '2px 2px white'}}>EVENTS</h2>  
             <div className="eventsGrid">
             <div></div>
             <div className="event1">

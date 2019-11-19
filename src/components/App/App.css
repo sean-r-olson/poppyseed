@@ -38,10 +38,6 @@
   .header {
     font-size: 10px;
   }
-  body {
-    background-image: url('poppyseed-background2.png');
-    color: #222
-  }
   /* ------- HAMNAV -------- */
   .desktopNavContainer{
     display: none;
@@ -68,7 +64,6 @@
     width: 40px;
     margin: 5px 20px
   }
-  
   .hamNavIcon{
     width: 40px;
     height: 1px;
@@ -201,12 +196,17 @@
   }
     /* ---------- EVENTS ------- */
   .event1 {
+    background-image: url('about-background.png');
+    border-radius: 20px;
+    box-shadow: 10px 10px #B7ABCB;
+    margin: 5px;
+    padding: 5px;
   }
   .eventsGrid {
     display: grid;
     text-align: center;
     grid-template-columns: 3% 94% 3%;
-    font-size: 1.2rem
+    font-size: 1rem
   }
   /* ---------- ABOUT ------- */
   .aboutPic1 {
@@ -228,12 +228,33 @@
   .aboutGridItem {
     margin-top: 20px;
   }
+  .aboutGridItem2 {
+    margin: 10px;
+    padding: 5px;
+    color: #FBFBF8;
+    background-image: url('about-background.png');
+    border-radius: 20px;
+    box-shadow: 10px 10px #FCCF00;
+  }
     /* ---------- CONTACT ------- */
+  .email {
+    text-align: center;
+    font-size: 0.5rem;
+    padding: 10px;
+    color: #FBFBF8;
+    border-radius: 20px;
+    box-shadow: 10px 10px #68A691;
+    letter-spacing: 0.3rem;
+    margin: 2rem 1rem;
+    width: 90%;
+    background-image: url('about-background.png');
+  }
   .socialMediaContainer {
     margin-top: 20px;
     display: grid;
     justify-content: center;
     align-content: center;
+    text-align: center;
   }
   .instagramLogo {
     width: 50px;
@@ -280,7 +301,7 @@
   .desktopNavContainer{
     display: grid;
     width: 100%;
-    color: white;
+    color: #FBFBF8;
     letter-spacing: 1rem;
     text-shadow: 2px 2px 4px black;
     text-decoration: none;
@@ -448,14 +469,13 @@
       margin-top: 60px;
       display: grid;
       text-align: center;
-      grid-template-columns: 30% 40% 30%;
+      grid-template-columns: 15% 70% 15%;
       font-size: 1.2rem
     }
     .event1 {
       background-image: url('about-background.png');
-      font-size: 20px;
       padding: 20px;
-      color: white;
+      color: #FBFBF8;
       border-radius: 20px;
       box-shadow: #B7ABCB 15px 15px;
       vertical-align: middle;
@@ -495,11 +515,28 @@
     margin: 20px 150px;
     font-size: 20px;
     padding: 20px;
-    color: white;
+    color: #FBFBF8;
     border-radius: 20px;
     box-shadow: #FCCF00 15px 15px;
   }
     /* ---------- CONTACT ------- */
+    .contactGrid {
+      margin-top: 100px;
+      display: grid;
+      text-align: center;
+      grid-template-columns: 15% 70% 15%;
+      font-size: 1rem
+    }
+    .email {
+      font-size: 1.5rem;
+      color: #FBFBF8;
+      border-radius: 20px;
+      box-shadow: 10px 10px #68A691;
+      letter-spacing: 0.3rem;
+      width: 100%;
+      background-image: url('about-background.png');
+      padding: 20px;
+    }
     .socialMediaContainer {
       margin-top: 20px;
       display: flex;
@@ -555,4 +592,55 @@
     .etsyLogo:focus{
       transform: scale(1.3);
     }
+}
+/* ----------------------------------------------- iPad ------------------------------------------------------ */ 
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+    body{
+      background-image: url('background-tablet.png');
+    }
+    .desktopNavContainer{
+      display: grid;
+      width: 100%;
+      color: #FBFBF8;
+      letter-spacing: 0.5rem;
+      text-shadow: 2px 2px 4px black;
+      text-decoration: none;
+      grid-template-columns: 25% 25% 25% 25%;
+      text-align: center;
+      position: fixed;    
+      top: 1;
+      z-index: 400;
+    }
+    .carousel {    /* border-image: 
+    linear-gradient(150deg, #f4AFAF, #FCCF00) 1; */
+      z-index: 300;
+      width: 100%;
+      object-fit: cover;
+    }
+    .homePicture {
+      width: 100%;
+      margin-top: 200px;
+    }
+    .carousel-indicators{
+      margin-bottom: 275px;
+    }
+}
+/* ----------------------------------------------- iPad Pro ------------------------------------------------------ */ 
+@media only screen and (min-width: 1024px) and (max-width: 1024px){
+  body{
+    background-image: url('background-tablet.png');
+  }
+  .carousel {    /* border-image: 
+  linear-gradient(150deg, #f4AFAF, #FCCF00) 1; */
+    z-index: 300;
+    width: 100%;
+    object-fit: cover;
+  }
+  .homePicture {
+    width: 100%;
+    margin-top: 300px;
+  }
+  .carousel-indicators{
+    margin-bottom: 350px;
+  }
 }
