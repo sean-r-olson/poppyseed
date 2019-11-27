@@ -26,13 +26,13 @@ React.js, Bootstrap, HTML/CSS (CSS Grid for responsive design), Node.js
 ## Screenshots
 
 ### Mobile
-![screenshot](public/images/screenshot1.PNG)
+![screenshot](public/images/screenshot-mobile.jpg)
 
 ### Tablet
-![screenshot](public/images/screenshot3.png)
+![screenshot](public/images/screenshot-tablet.png)
 
 ### Desktop
-![screenshot](public/images/screenshot2.png)
+![screenshot](public/images/screenshot-desktop.png)
 
 
 ## Scope Document (Need to request access to view)
