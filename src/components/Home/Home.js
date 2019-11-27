@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import {connect} from 'react-redux';
+
+// import stylesheet 
 import '../App/App.css';
+
+// import carousel (bootstrap)
 import Carousel from 'react-bootstrap/Carousel'
 
 class Home extends Component {
@@ -9,53 +12,45 @@ class Home extends Component {
         return(
             <>
             <grid-container>
-                <div></div>
-            <grid-item>
-                <p className="homeTitleTop">HAND MADE <br/></p>
-                <p className="homeTitleBottom"> POTTERY</p>
-            </grid-item>
-                <div></div>
+                <div>{/* empty div */}</div>
+                <grid-item>
+                    <p className="homeTitleTop">HAND MADE <br/></p>
+                    <p className="homeTitleBottom"> POTTERY</p>
+                </grid-item>
+                <div>{/* empty div */}</div>
             </grid-container>
             <Carousel className="carousel">
-            <Carousel.Item className="carouselItem1">
-                <img style={{backgroundImage: 'cover'}}
-                className="homePicture"
-                src="/images/carousel-image3.png"
-                alt="First slide"
-                />
-                {/* color: '#E9AFA3'  */}
-                {/* <Carousel.Caption style={{color: '#8B687F',fontFamily: 'Abril Fatface, cursive', margin: '5% 0%', letterSpacing: '1.5rem', padding: '10px'}}>
-                <h3 sytle={{marginBottom: '2rem'}}>HANDMADE</h3>
-                </Carousel.Caption> */}
-            </Carousel.Item>
-            <Carousel.Item>
-                <img style={{backgroundImage: 'cover'}}
-                className="homePicture"
-                src="/images/carousel-image1.png"
-                alt="Second slide"
-                />
-
-                {/* <Carousel.Caption style={{color: '#8B687F', fontFamily: 'Abril Fatface, cursive', margin: '5% 0%', letterSpacing: '1.5rem', padding: '10px'}}>
-                <h3 sytle={{marginBottom: '2rem'}}>LOCAL</h3>
-                </Carousel.Caption> */}
-            </Carousel.Item>
-            <Carousel.Item>
-                <img style={{backgroundImage: 'cover'}}
-                className="homePicture"
-                src="/images/carousel-image2.png"
-                alt="Third slide"
-                />
-            {/* <Carousel.Caption style={{color: '#8B687F',fontFamily: 'Abril Fatface, cursive', margin: '5% 0%', letterSpacing: '1.5rem', padding: '10px'}}>
-                <h3 sytle={{marginBottom: '2rem'}}>MINNEAPOLIS | MN</h3>
-                </Carousel.Caption> */}
-            </Carousel.Item>
+                {/* CAROUSEL ITEM 1 */}
+                    <Carousel.Item className="carouselItem1">
+                        <img style={{backgroundImage: 'cover'}}
+                        className="homePicture"
+                        src="/images/carousel-image3.png"
+                        alt="First slide"
+                        />
+                    </Carousel.Item>
+                {/* CAROUSEL ITEM 2 */}
+                    <Carousel.Item>
+                        <img style={{backgroundImage: 'cover'}}
+                        className="homePicture"
+                        src="/images/carousel-image1.png"
+                        alt="Second slide"
+                        />
+                    </Carousel.Item>
+                {/* CAROUSEL ITEM 3 */}
+                    <Carousel.Item>
+                        <img style={{backgroundImage: 'cover'}}
+                        className="homePicture"
+                        src="/images/carousel-image2.png"
+                        alt="Third slide"
+                        />
+                    </Carousel.Item>
             </Carousel>
             <div className="homeGrid2">
-                <div></div>
-            <div className="homeTitle2">
-                <p>MINNEAPOLIS | MN</p>
-            </div>
-                <div></div>
+                    <div>{/* empty div */}</div>
+                <div className="homeTitle2">
+                    <p>MINNEAPOLIS | MN</p>
+                </div>
+                    <div>{/* empty div */}</div>
             </div>
             </>
         )

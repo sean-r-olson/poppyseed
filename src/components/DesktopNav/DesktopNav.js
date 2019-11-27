@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import {connect} from 'react-redux';
-import { Link, Router, HashRouter } from 'react-router-dom';
+import { Link, HashRouter } from 'react-router-dom';
+
+// import stylesheet
 import '../App/App.css';
 
 class DesktopNav extends Component {
@@ -10,6 +11,7 @@ class DesktopNav extends Component {
         return(
             <>
             <div className="desktopNavContainer">
+                {/* *** LINKS TO PAGES *** */}
                 <div className="desktopNavWork">
                     <HashRouter><Link  style={{textDecoration: 'none', color: 'white'}} to="/work"><p>WORK</p></Link></HashRouter>
                 </div>
@@ -23,9 +25,7 @@ class DesktopNav extends Component {
                     <HashRouter><Link  style={{textDecoration: 'none', color: 'white'}} to="/contact"><p>CONTACT</p></Link></HashRouter>
                 </div>
             </div>
-           
-           
-                </>
+            </>
             )
         }
     }

@@ -1,472 +1,417 @@
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #222;
-  height: 70px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-/* body { 
-  background-image: url('poppyseed-background1.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: 'Quicksand', sans-serif;
-} */
-
-/* ----------------------------------------------- MOBILE ------------------------------------------------------ */ 
-
+/* --------------------------------------------------- MOBILE --------------------------------------------------- */ 
 @media only screen and (max-width: 450px){
-  body { 
-    background-image: url('background-mobile.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: 'Quicksand', sans-serif;
-  }
-  .header {
-    font-size: 10px;
-  }
-  /* ------- HAMNAV -------- */
-  .desktopNavContainer{
-    display: none;
-  }
-  .desktopDescription{
-    display: none;
-  }
-  .desktopDescription2{
-    display: none;
-  }
-  .hamNavContainer {
-    width: 100%;
-    height: 75px;
-    display: grid;
-    grid-template-columns: 25% 50% 5% 20%;
-    background-color: #f4AFAF;  
-    text-align: center;
-  }
-  .logo{
-    width: 129.4px;
-    height: 75px;
-  }
-  .hamNav{
-    width: 40px;
-    margin: 5px 20px
-  }
-  .hamNavIcon{
-    width: 40px;
-    height: 1px;
-    background-color: black;
-    margin-top: 15px;
-  }
-  .hamNavCloseBtnContainer {
-    height: 75px;
-    /* background-color: #f4AFAF; */
-    opacity: 0.9;
-  }
-  .hamNavCloseBtn {
-    float: right;
-    font-weight: 700;
-    margin: 7px 20px;
-    font-size: 40px;
-  }
-  .hamNavOpenContainer {
-    display: flexbox;
-    text-align: center;
-    font-size: 30px;
-    height: 100%;
-    width: 100%;
-    padding: 0px;
-    position: fixed;
-    z-index: 200;
-    top: 0;
-    left: 0;
-    /* background-color: #f4AFAF; */
-    background-image: url('hamnav-background2.png');
-    background-size: cover;
-    opacity: 0.9;
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-  .hamNavLinks {
-    padding-top: 30px;
-  }
-  /* --------- HOME -------- */
-  grid-container {
-    display: grid;
-    grid-template-columns: 0% 100% 0%;
-    text-align: center;
-    margin: 2rem 0px;
-    color: #222;
-    font-size: 20px;
-  }
-  grid-item {
-    display: flexbox;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-  } 
-  .homeTitleTop {
-    width: 100%;
-    margin: auto;
-    letter-spacing: 10px;
-    text-indent: 10px;
-
-  }
-  .homeTitleBottom {
-    width: 100%;
-    margin: auto;
-    letter-spacing: 17px;
-    text-indent: 3px;
-  }
-  .homeGrid2 {
-    display: grid;
-    grid-template-columns: 5% 90% 5%;
-    text-align: center;
-    margin: 2rem 0px;
-  }
-  .homeTitle2 { 
-    text-align: center;
-    font-size: 20px;
-    letter-spacing: 8px;
-  }
-  .homePicture {
-    width: 100%;
-  }
-  .carousel {
-    border-width: 3px 0px;
-    border-style: solid;
-    border-radius: 20px;
-    border-image: 
-      linear-gradient(
-        to right,
-      #f4AFAF,   
-        #B7ABCB
-      ) 1 0 100%;
-  }
-  .carouselItem1{
-    background: url('hover.png')
-  }
-  /* ---------- WORK ------- */
-  .workImagesGrid{
+    body { 
+      background-image: url('background-mobile.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: 'Quicksand', sans-serif;
+    }
+    .header {
+      font-size: 10px;
+    }
+  /* ---------------------------- HAMNAV ---------------------------- */
+    .desktopNavContainer{
+      display: none;
+    }
+    .desktopDescription{
+      display: none;
+    }
+    .desktopDescription2{
+      display: none;
+    }
+    .hamNavContainer {
+      width: 100%;
+      height: 75px;
       display: grid;
-    grid-template-columns: 10% 80% 10%;
-    text-align: center;
-  }
-  .workImagesContainer {
-    /* display: grid;
-    grid-template-columns: 10% 80% 10%;
-    text-align: center; */
-  }
-  .emptyDiv{
-  }
-  .workImages1 {
-    width: 75%;
-    height: 75%;
-  }
-  .workImages2 {
-    width: 75%;
-    height: 75%;
-  }
-  .workImages3 {
-    width: 75%;
-    height: 75%;
-  }
-  .workImages4 {
-    width: 75%;
-    height: 75%;
-  }
-  .workImages5 {
-    width: 75%;
-    height: 75%;
-  }
-  .workDescriptions {
-    text-align: center;
-    color: #222;
-    letter-spacing: 4px;
-  }
-    /* ---------- EVENTS ------- */
-  .event1 {
-    background-image: url('about-background.png');
-    border-radius: 20px;
-    box-shadow: 10px 10px #B7ABCB;
-    margin: 5px;
-    padding: 5px;
-  }
-  .eventsGrid {
-    display: grid;
-    text-align: center;
-    grid-template-columns: 3% 94% 3%;
-    font-size: 1rem
-  }
-  /* ---------- ABOUT ------- */
-  .aboutPic1 {
-    width: 75%;
-    height: 75%; 
-  }
-  .aboutGrid {
-    display: grid;
-    text-align: center;
-    color: #222;
-    font-size: 15px;
-    padding: 0.5rem;
-  }
-  .aboutDescription{
-    font-size: 1.5rem ;
-    margin-top: 16px;
-    font-family: 'Abril Fatface', cursive;
-  }
-  .aboutGridItem {
-    margin-top: 20px;
-  }
-  .aboutGridItem2 {
-    margin: 10px;
-    padding: 5px;
-    color: #FBFBF8;
-    background-image: url('about-background.png');
-    border-radius: 20px;
-    box-shadow: 10px 10px #FCCF00;
-  }
-    /* ---------- CONTACT ------- */
-  .email {
-    text-align: center;
-    font-size: 0.5rem;
-    padding: 10px;
-    color: #FBFBF8;
-    border-radius: 20px;
-    box-shadow: 10px 10px #68A691;
-    letter-spacing: 0.3rem;
-    margin: 2rem 1rem;
-    width: 90%;
-    background-image: url('about-background.png');
-  }
-  .socialMediaContainer {
-    margin-top: 20px;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-  }
-  .instagramLogo {
-    width: 50px;
-    height: 50px;
-    margin: 20px auto;
-  }
-  .facebookLogo {
-    width: 45px;
-    height: 45px;
-    margin: 20px auto;
-  }
-  .etsyLogo { 
-    width: 105px;
-    height: 50px;
-    margin: 20px;
+      grid-template-columns: 25% 50% 5% 20%;
+      background-color: #f4AFAF;  
+      text-align: center;
+    }
+    .logo{
+      width: 129.4px;
+      height: 75px;
+    }
+    .hamNav{
+      width: 40px;
+      margin: 5px 20px
+    }
+    .hamNavIcon{
+      width: 40px;
+      height: 1px;
+      background-color: black;
+      margin-top: 15px;
+    }
+    .hamNavCloseBtnContainer {
+      height: 75px;
+      opacity: 0.9;
+    }
+    .hamNavCloseBtn {
+      float: right;
+      font-weight: 700;
+      margin: 7px 20px;
+      font-size: 40px;
+    }
+    .hamNavOpenContainer {
+      display: flexbox;
+      text-align: center;
+      font-size: 30px;
+      height: 100%;
+      width: 100%;
+      padding: 0px;
+      position: fixed;
+      z-index: 200;
+      top: 0;
+      left: 0;
+      background-image: url('hamnav-background2.png');
+      background-size: cover;
+      opacity: 0.9;
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+    .hamNavLinks {
+      padding-top: 30px;
+    }
+  /* ------------------------------- HOME ------------------------------- */
+    grid-container {
+      display: grid;
+      grid-template-columns: 0% 100% 0%;
+      text-align: center;
+      margin: 2rem 0px;
+      color: #222;
+      font-size: 20px;
+    }
+    grid-item {
+      display: flexbox;
+      align-content: center;
+      justify-content: center;
+      text-align: center;
+    } 
+    .homeTitleTop {
+      width: 100%;
+      margin: auto;
+      letter-spacing: 10px;
+      text-indent: 10px;
 
-  }
+    }
+    .homeTitleBottom {
+      width: 100%;
+      margin: auto;
+      letter-spacing: 17px;
+      text-indent: 3px;
+    }
+    .homeGrid2 {
+      display: grid;
+      grid-template-columns: 5% 90% 5%;
+      text-align: center;
+      margin: 2rem 0px;
+    }
+    .homeTitle2 { 
+      text-align: center;
+      font-size: 20px;
+      letter-spacing: 8px;
+    }
+    .homePicture {
+      width: 100%;
+    }
+    .carousel {
+      border-width: 3px 0px;
+      border-style: solid;
+      border-radius: 20px;
+      border-image: 
+        linear-gradient(
+          to right,
+        #f4AFAF,   
+          #B7ABCB
+        ) 1 0 100%;
+    }
+    .carouselItem1{
+      background: url('hover.png')
+    }
+  /* ---------------------------- WORK ---------------------------- */
+    .workImagesGrid{
+      display: grid;
+      grid-template-columns: 10% 80% 10%;
+      text-align: center;
+    }
+    .workImages1 {
+      width: 75%;
+      height: 75%;
+    }
+    .workImages2 {
+      width: 75%;
+      height: 75%;
+    }
+    .workImages3 {
+      width: 75%;
+      height: 75%;
+    }
+    .workImages4 {
+      width: 75%;
+      height: 75%;
+    }
+    .workImages5 {
+      width: 75%;
+      height: 75%;
+    }
+    .workDescriptions {
+      text-align: center;
+      color: #222;
+      letter-spacing: 4px;
+    }
+  /* ---------------------------- EVENTS ---------------------------- */
+    .event1 {
+      background-image: url('about-background.png');
+      border-radius: 20px;
+      box-shadow: 10px 10px #B7ABCB;
+      margin: 5px;
+      padding: 5px;
+    }
+    .eventsGrid {
+      display: grid;
+      text-align: center;
+      grid-template-columns: 3% 94% 3%;
+      font-size: 1rem
+    }
+  /* ---------------------------- ABOUT ---------------------------- */
+    .aboutPic1 {
+      width: 75%;
+      height: 75%; 
+    }
+    .aboutGrid {
+      display: grid;
+      text-align: center;
+      color: #222;
+      font-size: 15px;
+      padding: 0.5rem;
+    }
+    .aboutDescription{
+      font-size: 1.5rem ;
+      margin-top: 16px;
+      font-family: 'Abril Fatface', cursive;
+    }
+    .aboutGridItem {
+      margin-top: 20px;
+    }
+    .aboutGridItem2 {
+      margin: 10px;
+      padding: 5px;
+      color: #FBFBF8;
+      background-image: url('about-background.png');
+      border-radius: 20px;
+      box-shadow: 10px 10px #FCCF00;
+    }
+  /* ---------------------------- CONTACT ---------------------------- */
+    .email {
+      text-align: center;
+      font-size: 0.5rem;
+      padding: 10px;
+      color: #FBFBF8;
+      border-radius: 20px;
+      box-shadow: 10px 10px #68A691;
+      letter-spacing: 0.3rem;
+      margin: 2rem 1rem;
+      width: 90%;
+      background-image: url('about-background.png');
+    }
+    .socialMediaContainer {
+      margin-top: 20px;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+    }
+    .instagramLogo {
+      width: 50px;
+      height: 50px;
+      margin: 20px auto;
+    }
+    .facebookLogo {
+      width: 45px;
+      height: 45px;
+      margin: 20px auto;
+    }
+    .etsyLogo { 
+      width: 105px;
+      height: 50px;
+      margin: 20px;
+    }
 }
-/* ----------------------------------------------- DESKTOP ------------------------------------------------------ */ 
-
+/* --------------------------------------------------- DESKTOP -------------------------------------------------- */ 
 @media only screen and (min-width: 500px){
-  body { 
-    background-image: url('background-desktop.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: 'Quicksand', sans-serif;
-  }
-  .hamNavContainer {
-    width: 100%;
-    height: 75px;
-    display: grid;
-    grid-template-columns: 43.5% 13% 43.5% 0%;
-    grid-template-rows: auto;
-    align-items: center;
-    justify-content: center;
-    background-color: #f4AFAF;  
-    text-align: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 500;
-  }
-  .desktopNavContainer{
-    display: grid;
-    width: 100%;
-    color: #FBFBF8;
-    letter-spacing: 1rem;
-    text-shadow: 2px 2px 4px black;
-    text-decoration: none;
-    grid-template-columns: 25% 25% 25% 25%;
-    text-align: center;
-    position: fixed;    
-    top: 1;
-    z-index: 400;
-  }
-  .desktopNavWork{
-    padding-top: 16px;
-  }
-  .desktopNavEvents{
-    padding-top: 16px;
-  }
-  .desktopNavAbout{
-    padding-top: 16px;
-  }
-  .desktopNavContact{
-    padding-top: 16px; 
-  }
-  .desktopNavWork:hover{
-    font-weight: 700;
-    text-shadow: none;
-    background-color: #f4AFAF;
+    body { 
+      background-image: url('background-desktop.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: 'Quicksand', sans-serif;
+    }
+  /* ---------------------------- HAMNAV (HEADER FOR DESKTOP) ---------------------------- */
+    .hamNavContainer {
+      width: 100%;
+      height: 75px;
+      display: grid;
+      grid-template-columns: 43.5% 13% 43.5% 0%;
+      grid-template-rows: auto;
+      align-items: center;
+      justify-content: center;
+      background-color: #f4AFAF;  
+      text-align: center;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 500;
+    }
+  /* ---------------------------- DESKTOP NAVBAR ---------------------------- */
+    .desktopNavContainer{
+      display: grid;
+      width: 100%;
+      color: #FBFBF8;
+      letter-spacing: 1rem;
+      text-shadow: 2px 2px 4px black;
+      text-decoration: none;
+      grid-template-columns: 25% 25% 25% 25%;
+      text-align: center;
+      position: fixed;    
+      top: 1;
+      z-index: 400;
+    }
+    .desktopNavWork{
+      padding-top: 16px;
+    }
+    .desktopNavEvents{
+      padding-top: 16px;
+    }
+    .desktopNavAbout{
+      padding-top: 16px;
+    }
+    .desktopNavContact{
+      padding-top: 16px; 
+    }
+    .desktopNavWork:hover{
+      font-weight: 700;
+      text-shadow: none;
+      background-color: #f4AFAF;
 
-  }
-  .desktopNavEvents:hover{
-    font-weight: 700;
-    text-shadow: none;
-    background-color: #f4AFAF;
-  }
-  .desktopNavAbout:hover{
-    font-weight: 700;
-    text-shadow: none;
-    background-color: #f4AFAF;
-  }
-  .desktopNavContact:hover{
-    font-weight: 700;
-    text-shadow: none;
-    background-color: #f4AFAF;
-  }
-  .desktopDescription{
-    letter-spacing: 1rem;
-    margin: 0px;
-  }
-  .desktopDescription2{
-    letter-spacing: 1rem;
-    margin: 0px;
-  }
-  .logo{
-    width: 129.4px;
-    height: 75px;
-  }
-  .homePicture {
-    width: 100%;
-    margin-top: -100px;
-  }
-  .homeTitleTop {
-    /* letter-spacing: 1rem;
-    text-align: center; */
-    display: none;
-  }
-  .homeTitleBottom {
-    /* letter-spacing: 1.6rem;
-    text-align: center;
-    text-indent: 1.3rem; */
-    display: none;
-  }
-  .homeTitle2 { 
-    /* text-align: center;
-    font-size: 20px;
-    letter-spacing: 8px; */
-    display: none;
-  }
-  .carousel {    /* border-image: 
-      linear-gradient(150deg, #f4AFAF, #FCCF00) 1; */
+    }
+    .desktopNavEvents:hover{
+      font-weight: 700;
+      text-shadow: none;
+      background-color: #f4AFAF;
+    }
+    .desktopNavAbout:hover{
+      font-weight: 700;
+      text-shadow: none;
+      background-color: #f4AFAF;
+    }
+    .desktopNavContact:hover{
+      font-weight: 700;
+      text-shadow: none;
+      background-color: #f4AFAF;
+    }
+    .desktopDescription{
+      letter-spacing: 1rem;
+      margin: 0px;
+    }
+    .desktopDescription2{
+      letter-spacing: 1rem;
+      margin: 0px;
+    }
+    .logo{
+      width: 129.4px;
+      height: 75px;
+    }
+  /* ---------------------------- HOME ---------------------------- */
+    .homePicture {
+      width: 100%;
+      margin-top: -100px;
+    }
+    .homeTitleTop {
+      display: none;
+    }
+    .homeTitleBottom {
+      display: none;
+    }
+    .homeTitle2 { 
+      display: none;
+    }
+    .carousel {    
       z-index: 300;
       width: 100%;
       height: 90vh;
       object-fit: cover;
-  }
-  /* .carousel{
-    border-width: 0px;
-    border-image:
-    linear-gradient(
-        to right,
-      #f4AFAF,   
-        #FCCF00
-      ) 1 0 100%;
-  } */
-  /* ---------- WORK ------- */
-  .workImagesGrid {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    text-align: center;
-    margin-top: 60px;
-  }
-  .emptyDiv {
-    display: none;
-  }
-  .workImages1 {
-    width: 75%;
-    height: 75%;
-  }
-  .workImages2 {
-    width: 75%;
-    height: 75%;
-  }
-  .workImages3 {
-    width: 75%;
-    height: 75%;
-  }
-  .workImages4 {
-    width: 75%;
-    height: 75%;
-  }
-  .workImages5{
-    width: 75%;
-    height: 75%; 
-  }
-  .workImages1:hover{    
-    background-image: url('workImages1-hover.png');
-    background-size: cover
-  }
-  .workImages2:hover{    
-    background-image: url('workImages2-hover.png');
-    background-size: cover
-  }
-  .workImages3:hover{    
-    background-image: url('workImages3-hover.png');
-    background-size: cover
-  }
-  .workImages4:hover{    
-    background-image: url('workImages4-hover.png');
-    background-size: cover
-  }
-  .workImages5:hover{    
-    background-image: url('workImages5-hover.png');
-    background-size: cover
-  }
-  .workImagesContainer{
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
+    }
+  /* ---------------------------- WORK ---------------------------- */
+    .workImagesGrid {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      text-align: center;
+      margin-top: 60px;
+    }
+    .emptyDiv {
+      display: none;
+    }
+    .workImages1 {
+      width: 75%;
+      height: 75%;
+    }
+    .workImages2 {
+      width: 75%;
+      height: 75%;
+    }
+    .workImages3 {
+      width: 75%;
+      height: 75%;
+    }
+    .workImages4 {
+      width: 75%;
+      height: 75%;
+    }
+    .workImages5{
+      width: 75%;
+      height: 75%; 
+    }
+    .workImages1:hover{    
+      background-image: url('workImages1-hover.png');
+      background-size: cover
+    }
+    .workImages2:hover{    
+      background-image: url('workImages2-hover.png');
+      background-size: cover
+    }
+    .workImages3:hover{    
+      background-image: url('workImages3-hover.png');
+      background-size: cover
+    }
+    .workImages4:hover{    
+      background-image: url('workImages4-hover.png');
+      background-size: cover
+    }
+    .workImages5:hover{    
+      background-image: url('workImages5-hover.png');
+      background-size: cover
+    }
+    .workImagesContainer{
+      vertical-align: middle;
+      transform: translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      backface-visibility: hidden;
+      -moz-osx-font-smoothing: grayscale;
+      transition-duration: 0.3s;
+      transition-property: transform;
 
+    }
+    .workImagesContainer:hover,
+    .workImagesContainer:focus,
+    .workImagesContainer:active {
+      transform: scale(1.1);
   }
-  .workImagesContainer:hover,
-  .workImagesContainer:focus,
-  .workImagesContainer:active {
-    transform: scale(1.1);
-}
-  .workDescriptions {
-    text-align: center;
-    color: #222;
-    letter-spacing: 4px;
-  }
-    /* ---------- EVENTS ------- */
-    
+    .workDescriptions {
+      text-align: center;
+      color: #222;
+      letter-spacing: 4px;
+    }
+  /* ---------------------------- EVENTS ---------------------------- */ 
     .eventsGrid {
       margin-top: 60px;
       display: grid;
@@ -492,36 +437,36 @@
     .event1:active{
       transform: scale(1.1);
     }
-    /* ---------- ABOUT ------- */
-  .aboutPic1 {
-    width: 50%;
-    height: 50%; 
-  }
-  .aboutGrid {
-    display: grid;
-    text-align: center;
-    color: #222;
-    font-size: 15px;
-    padding: 0.5rem;
-  }
-  .aboutDescription{
-    font-size: 3rem ;
-    margin-top: 60px;
-    font-family: 'Abril Fatface', cursive;
-  } 
-  .aboutGridItem{
-    margin-top: 20px;
-  }
-  .aboutGridItem2 {
-    background-image: url('about-background.png');
-    margin: 20px 150px;
-    font-size: 20px;
-    padding: 20px;
-    color: #FBFBF8;
-    border-radius: 20px;
-    box-shadow: #FCCF00 15px 15px;
-  }
-    /* ---------- CONTACT ------- */
+  /* ---------------------------- ABOUT ---------------------------- */
+    .aboutPic1 {
+      width: 50%;
+      height: 50%; 
+    }
+    .aboutGrid {
+      display: grid;
+      text-align: center;
+      color: #222;
+      font-size: 15px;
+      padding: 0.5rem;
+    }
+    .aboutDescription{
+      font-size: 3rem ;
+      margin-top: 60px;
+      font-family: 'Abril Fatface', cursive;
+    } 
+    .aboutGridItem{
+      margin-top: 20px;
+    }
+    .aboutGridItem2 {
+      background-image: url('about-background.png');
+      margin: 20px 150px;
+      font-size: 20px;
+      padding: 20px;
+      color: #FBFBF8;
+      border-radius: 20px;
+      box-shadow: #FCCF00 15px 15px;
+    }
+  /* ---------------------------- CONTACT ---------------------------- */
     .contactGrid {
       margin-top: 100px;
       display: grid;
@@ -595,11 +540,12 @@
       transform: scale(1.3);
     }
 }
-/* ----------------------------------------------- iPad ------------------------------------------------------ */ 
+/* ---------------------------------------------------- iPad ---------------------------------------------------- */ 
 @media only screen and (min-width: 768px) and (max-width: 1000px){
     body{
       background-image: url('background-tablet.png');
     }
+  /* ---------------------------- DESKTOP NAVBAR (render in tablet viewport) ---------------------------- */
     .desktopNavContainer{
       display: grid;
       width: 100%;
@@ -613,8 +559,8 @@
       top: 1;
       z-index: 400;
     }
-    .carousel {    /* border-image: 
-    linear-gradient(150deg, #f4AFAF, #FCCF00) 1; */
+  /* ---------------------------- HOME ---------------------------- */
+    .carousel {    
       z-index: 300;
       width: 100%;
       object-fit: cover;
@@ -627,22 +573,22 @@
       margin-bottom: 275px;
     }
 }
-/* ----------------------------------------------- iPad Pro ------------------------------------------------------ */ 
+/* -------------------------------------------------- iPad Pro -------------------------------------------------- */ 
 @media only screen and (min-width: 1024px) and (max-width: 1024px){
-  body{
-    background-image: url('background-tablet.png');
-  }
-  .carousel {    /* border-image: 
-  linear-gradient(150deg, #f4AFAF, #FCCF00) 1; */
-    z-index: 300;
-    width: 100%;
-    object-fit: cover;
-  }
-  .homePicture {
-    width: 100%;
-    margin-top: 300px;
-  }
-  .carousel-indicators{
-    margin-bottom: 350px;
-  }
+    body{
+      background-image: url('background-tablet.png');
+    }
+  /* ---------------------------- HOME ---------------------------- */
+    .carousel {    
+      z-index: 300;
+      width: 100%;
+      object-fit: cover;
+    }
+    .homePicture {
+      width: 100%;
+      margin-top: 300px;
+    }
+    .carousel-indicators{
+      margin-bottom: 350px;
+    }
 }
