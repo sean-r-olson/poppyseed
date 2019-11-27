@@ -43,12 +43,12 @@ https://docs.google.com/document/d/1iyPRpwJf50qZxWwDV6yJjaCZjNY_PeNontCV3X-ABs8/
 
 ## Completed Features 
 
-- Home page with carousel, giving viewer brief demo of work 
+- Home page with carousel, giving viewers a brief demo of work 
 - Shop feature connecting viewers to Poppyseed Pottery etsy page 
 - Events page to update viewers on upcoming events 
-- About page to give viewer a short history of the business 
+- About page to give viewers a short history of the business 
 - Contact page to provide contact details, including links to social media profiles 
-- Responsive design feature, components render according to rules set to viewport sizes
+- Responsive design feature, components render according to rules set for different viewport sizes
 
 ## Future Features 
 
