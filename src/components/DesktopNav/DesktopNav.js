@@ -13,7 +13,7 @@ class DesktopNav extends Component {
             <div className="desktopNavContainer">
                 {/* *** LINKS TO PAGES *** */}
                 <div className="desktopNavWork">
-                    <HashRouter><Link  style={{textDecoration: 'none', color: 'white'}} to="/work"><p>WORK</p></Link></HashRouter>
+                    <HashRouter><Link  style={{textDecoration: 'none', color: 'white'}} to="/work"><p>SHOP</p></Link></HashRouter>
                 </div>
                 <div className="desktopNavEvents">
                     <HashRouter><Link  style={{textDecoration: 'none', color: 'white'}} to="/events"><p>EVENTS</p></Link></HashRouter>

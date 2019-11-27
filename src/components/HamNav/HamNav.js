@@ -73,7 +73,7 @@ class HamNav extends Component {
                     </div>
                 {/* *** LINKS TO PAGES *** */}
                     <div>
-                        <HashRouter><Link to='/work' style={{ textDecoration: 'none', color: '#222'}}><p style={{opacity: '1'}} onClick={(event) => this.closeNav()} className="hamNavLinks">WORK</p></Link></HashRouter>
+                        <HashRouter><Link to='/work' style={{ textDecoration: 'none', color: '#222'}}><p style={{opacity: '1'}} onClick={(event) => this.closeNav()} className="hamNavLinks">SHOP</p></Link></HashRouter>
                         <HashRouter><Link to='/events' style={{ textDecoration: 'none', color: '#222' }}><p style={{opacity: '1'}} onClick={(event) => this.closeNav()} className="hamNavLinks">EVENTS</p></Link></HashRouter>
                         <HashRouter><Link to='/about' style={{ textDecoration: 'none', color: '#222' }}><p style={{opacity: '1'}} onClick={(event) => this.closeNav()} className="hamNavLinks">ABOUT</p></Link></HashRouter>
                         <HashRouter><Link to='/contact' style={{ textDecoration: 'none', color: '#222' }}><p style={{opacity: '1'}} onClick={(event) => this.closeNav()} className="hamNavLinks" >CONTACT</p></Link></HashRouter>
