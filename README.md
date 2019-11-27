@@ -1,5 +1,5 @@
 # Poppyseed Pottery
-Poppyseed Pottery is a Minneapolis, Minnesota based pottery business. This project was created to showcase, and build awareness of her work, as well as give updates on upcoming events and provide contact information for prospective customers/clients. 
+Poppyseed Pottery is a Minneapolis, Minnesota based pottery business. This project was created to showcase, and build awareness of the artist's work, as well as give updates on upcoming events and provide the artist's contact information.
 
 This project was built with mobile-first, responsive web design principles - so view it on your phone, laptop, or tablet.
 
@@ -10,9 +10,9 @@ https://poppyseedpottery.co
 
 OR 
 
-Steps to get the development environment running are as follows: 
+Steps to get the development environment running locally are as follows: 
 
-1) Download the zip file of this repo
+1) Download the zip file of this repository
 2) Open project in preferred code editor
 3) Open terminal, or your preferred command line interface
     - To install dependencies, type command: 
@@ -43,16 +43,16 @@ https://docs.google.com/document/d/1iyPRpwJf50qZxWwDV6yJjaCZjNY_PeNontCV3X-ABs8/
 
 ## Completed Features 
 
-1) Home page with carousel, giving viewer brief demo of work 
-2) Shop feature connecting viewers to Poppyseed Pottery etsy page 
-3) Events page to update viewers on upcoming events 
-4) About page to give viewer a short history of the business 
-5) Contact page to provide contact details, including links to social media profiles 
-6) Responsive design feature, components render according to rules set to viewport sizes
+- Home page with carousel, giving viewer brief demo of work 
+- Shop feature connecting viewers to Poppyseed Pottery etsy page 
+- Events page to update viewers on upcoming events 
+- About page to give viewer a short history of the business 
+- Contact page to provide contact details, including links to social media profiles 
+- Responsive design feature, components render according to rules set to viewport sizes
 
 ## Future Features 
 
-1) Payment API to provide customers with the option to purchase work from site
+- Payment API to provide customers with the option to purchase work from site
 
 
 
