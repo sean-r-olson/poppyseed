@@ -25,7 +25,7 @@ React.js, Bootstrap, HTML/CSS (CSS Grid for responsive design), Node.js
 
 ## Screenshots
 
-![screenshot](public/images/screenshot1.png)
+![screenshot](public/images/screenshot1.PNG)
 
 ![screenshot](public/images/screenshot2.png)
 
