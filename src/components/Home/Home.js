@@ -15,7 +15,7 @@ class Home extends Component {
                 <div>{/* empty div */}</div>
                 <grid-item>
                     <p className="homeTitleTop">HAND MADE <br/></p>
-                    <p className="homeTitleBottom"> POTTERY</p>
+                    <p className="homeTitleBottom" style={{textIndent: '1rem'}}> POTTERY</p>
                 </grid-item>
                 <div>{/* empty div */}</div>
             </grid-container>
