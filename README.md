@@ -24,9 +24,9 @@ Steps to get the development environment running are as follows:
 React.js, Bootstrap, HTML/CSS (CSS Grid for responsive design), Node.js
 
 ## Screenshots
-
+<center>
 ![screenshot](public/images/screenshot1.PNG)
-
+</center>
 ![screenshot](public/images/screenshot2.png)
 
 ## Scope Document (Need to request access to view)
