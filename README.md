@@ -6,7 +6,7 @@ This project was built with mobile-first, responsive web design principles - so 
 ## Getting Started
 
 To view the live site, visit: 
-https://poppyseedpottery.co
+https://obscure-sierra-94541.herokuapp.com/
 
 OR 
 
